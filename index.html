@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+</head>
+
+<body>
+    <!--Sayı 1 ve Sayı 2 verileri için input alanı açalım.-->
+    <p> Sayı 1: <input type="text"" id=" input1" placeholder="İlk sayınızı girin"> </p>
+    <p>Sayı 2: <input type="text" id="input2" placeholder="İkinci sayınızı giriniz..."> </p>
+
+
+    <!--Yapılacak işlem verisi için select tagı ile seçim yaptıralım-->
+    <p> Yapılacak İşlem: <select name="kf" id="islem">
+            <option value="+">Toplama</option>
+            <option value="-">Çıkarma</option>
+            <option value="*">Çarpma</option>
+            <option value="/">Bölme</option>
+        </select></p>
+
+
+    <!--Sonuçları göndermek için butonumuzu oluşturalım.-->
+    <button id="butonum">Gönder</button>
+
+
+    <!--Sonucu yazdırmak için P etiketimizi açalım.-->
+    <p id="sonucburada">Sonuç: </p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
