@@ -32,8 +32,13 @@ buton.onclick = function () {
         console.log(sonuc);
     }
     else if (islem === "/") {
+        if(sayi2 === 0){
+            var sonuc = "İkinci sayınız 0 olamaz";
+        }
+        else{
         var sonuc = sayi1 / sayi2;
         console.log(sonuc);
+        }
     }
 
     // Output alanını seçme
@@ -42,4 +47,8 @@ buton.onclick = function () {
     // Sonucu output alanına yazdırma
     sonucpar.textContent = "Sonuç: " + sonuc;
 
-};
+}
+
+
+
+
