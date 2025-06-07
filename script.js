@@ -32,6 +32,17 @@ buton.onclick = function () {
         case "/":
             sonuc = sayi1 / sayi2;
             break;
+        case "karekok":
+            if (sayi1 < 0) {
+                var sonucpar = document.getElementById("sonucburada");
+                sonucpar.textContent = "Sayınız sıfırdan küçük olduğu için karekök işlemi yapılamıyor...";
+                return;
+            }
+            else {
+                sonuc = Math.sqrt(sayi1);
+                break;
+            }
+            
     }
     
 
