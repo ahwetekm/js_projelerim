@@ -19,27 +19,21 @@ buton.onclick = function () {
 
 
     // İşlemleri yapalım
-    if (islem === "+") {
-        var sonuc = sayi1 + sayi2;
-        console.log(sonuc);
+    switch (islem) {
+        case "+":
+            sonuc = sayi1 + sayi2;
+            break;
+        case "-":
+            sonuc = sayi1 - sayi2;
+            break;
+        case "*":
+            sonuc = sayi1 * sayi2;
+            break;
+        case "/":
+            sonuc = sayi1 / sayi2;
+            break;
     }
-    else if (islem === "-") {
-        var sonuc = sayi1 - sayi2;
-        console.log(sonuc);
-    }
-    else if (islem === "*") {
-        var sonuc = sayi1 * sayi2;
-        console.log(sonuc);
-    }
-    else if (islem === "/") {
-        if(sayi2 === 0){
-            var sonuc = "İkinci sayınız 0 olamaz";
-        }
-        else{
-        var sonuc = sayi1 / sayi2;
-        console.log(sonuc);
-        }
-    }
+    
 
     // Output alanını seçme
     var sonucpar = document.getElementById("sonucburada")
