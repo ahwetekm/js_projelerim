@@ -42,6 +42,9 @@ buton.onclick = function () {
                 sonuc = Math.sqrt(sayi1);
                 break;
             }
+        case "kare":
+        sonuc = sayi1 * sayi1;
+        break;
             
     }
     
