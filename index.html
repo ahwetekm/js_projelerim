@@ -1,46 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hesap Makinesi</title>
+    <title>Ana Sayfa</title>
 </head>
-
 <body>
-    <!--Sayı 1 ve Sayı 2 verileri için input alanı açalım.-->
-    <p> Sayı 1: <input type="text" id="input1" placeholder="İlk sayınızı girin..."> </p>
-    <p>Sayı 2: <input type="text" id="input2" placeholder="İkinci sayınızı giriniz..."> </p>
+    <h1>Merhaba Dünya!</h1>
+        <p>Merhaba, Javascript projelerime hoş geldiniz. Altta gördüğünüz linklere tıklayarak projelerimi ziyaret edebilirsiniz. </p>
+    <a href="calculator/index.html">Hesap Makinesi</a>
+    <br>
+    <a href="tas_kagit_makas/index.html">Taş Kağıt Makas</a>
 
-
-    <!--Yapılacak işlem verisi için select tagı ile seçim yaptıralım-->
-    <p> Yapılacak İşlem: <select name="kf" id="islem">
-            <optgroup label="Basit İşlemler">
-                <option value="+">Toplama</option>
-                <option value="-">Çıkarma</option>
-                <option value="*">Çarpma</option>
-                <option value="/">Bölme</option>
-            </optgroup>
-            <optgroup label="Karmaşık işlemler">
-                <option value="karekok">Karekök alma</option>
-                <option value="kare">Kare alma</option>
-            </optgroup>
-        </select></p>
-
-
-    <!--Sonuçları göndermek için butonumuzu oluşturalım.-->
-    <button id="butonum">Gönder</button>
-
-
-    <!--Sonucu yazdırmak için P etiketimizi açalım.-->
-    <p id="sonucburada">Sonuç: </p>
-
-    <!--Kullanım talimatları için bir paragraf oluşturalım-->
-    <hr>
-    <h3>Ahmet Ekmekcioğlu</h3>
-    <hr>
-    <p>Merhaba, projeme hoş geldiniz. Basit bir hesap makinesinden farksız olarak <i>Sayı 1</i> ve <i>Sayı 2</i> bölümlerine ilgili sayıları girip işleminizi seçip gönder tuşuna tıklıyorsunuz. sonucunuz <i>Sonuç: </i> yazısının hemen yanında beliriyor. <br> <br> <b>Not:</b> Yeni eklenen <i>Gelişmiş Seçenekler</i> kategorisinde bulunan <i>Karekök Alma</i> işlemini yaparken yalnızca <i>Sayı 1</i> alanına girdiğiniz karakterler dikkate alınır. </p>
-    <script src="script.js"></script>
 </body>
-
 </html>
