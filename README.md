@@ -55,4 +55,4 @@ Ana dizindeki `index.html` dosyasından "Taş Kağıt Makas" bağlantısına tı
 
 
 Teşekkürler! Projelerimi incelediğiniz için mutluyum. Geri bildirimlerinizi bekliyorum.
-Projemi <a href="https://ahwetekm.github.io/js_projelerim/'>Buradan</a> inceleyebilirsiniz. 
+Projemi <a href="https://ahwetekm.github.io/js_projelerim">Buradan</a> inceleyebilirsiniz. 
