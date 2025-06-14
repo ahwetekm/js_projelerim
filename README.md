@@ -10,8 +10,6 @@ Merhaba! Ben **Ahmet Ekmekcioğlu**. Bu depo, JavaScript ve web geliştirme alan
 - [Projeler](#projeler)
   - [Hesap Makinesi (Calculator)](#hesap-makinesi-calculator)
   - [Taş Kağıt Makas Oyunu](#taş-kağıt-makas-oyunu)
-- [Kurulum ve Kullanım](#kurulum-ve-kullanım)
-- [İletişim](#iletişim)
 
 ---
 
